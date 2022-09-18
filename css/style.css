@@ -145,7 +145,10 @@ header ul a {
     order: 2;
   }
   .landing .container .text h1 {
-    font-size: 30px;
+    font-size: 27px;
+  }
+  img {
+    padding: 0;
   }
 }
 .landing .container form input[type="email"] {
@@ -281,6 +284,9 @@ header ul a {
 }
 
 @media (max-width: 768px) {
+  .landing-2 .container .text .big-box {
+    width: 100%;
+  }
   .landing-2 .container .text {
     order: 2;
     width: 100%;
@@ -291,7 +297,7 @@ header ul a {
   }
   .landing-2 .container .text p {
     text-align: start;
-    max-width: 100%;
+    max-width: 90%;
   }
   p.zek-20 {
     padding-top: 20px;
@@ -443,9 +449,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .footer {
-    height: 110vh;
-  }
   .footer .container {
     justify-content: flex-start;
     align-items: flex-start;
@@ -460,7 +463,7 @@ footer {
     text-align: start;
   }
   .footer .container ol li.inf {
-    padding-bottom: 5px;
+    padding-bottom: 15px;
   }
   .footer .container ol li.inf img {
     padding: 0;
