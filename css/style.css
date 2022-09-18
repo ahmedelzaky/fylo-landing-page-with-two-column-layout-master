@@ -284,7 +284,7 @@ header ul a {
 }
 
 @media (max-width: 768px) {
-  .landing-2 .container img{
+  .landing-2 .container img {
     padding: 0;
   }
   .landing-2 .container .text .big-box {
@@ -323,7 +323,7 @@ header ul a {
   }
   .pov .text {
     max-width: 100%;
-    padding: 0;
+    padding-left: 10px;
     text-align: start;
     font-size: 16px;
   }
@@ -333,7 +333,7 @@ header ul a {
     padding-bottom: 0;
   }
   .box .pov img {
-    padding: 0 15 0 0;
+    width: 35px;
   }
 }
 /* end landing-2 */
