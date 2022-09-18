@@ -85,6 +85,7 @@ header .container {
 header img {
   max-width: 200px;
 }
+
 ul {
   display: flex;
 }
@@ -104,8 +105,8 @@ header ul a {
   body {
     text-align: center;
   }
-  h1 {
-    font-size: 30px;
+  header img {
+    width: 100px;
   }
 }
 /* end header */
@@ -142,6 +143,9 @@ header ul a {
   .landing .container .text {
     padding-top: 50px;
     order: 2;
+  }
+  .landing .container .text h1 {
+    font-size: 30px;
   }
 }
 .landing .container form input[type="email"] {
@@ -282,12 +286,12 @@ header ul a {
     width: 100%;
   }
   .landing-2 .container .text h1 {
-    font-size: 23px;
+    font-size: 20px;
     padding: 100px 0 0 0;
   }
   .landing-2 .container .text p {
     text-align: start;
-    width: 400px;
+    max-width: 100%;
   }
   p.zek-20 {
     padding-top: 20px;
@@ -296,9 +300,10 @@ header ul a {
     padding-bottom: 30px;
   }
   .landing-2 .container .box {
-    width: 350px;
+    width: 330px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 14px;
   }
   .landing-2 .container .box p {
     line-height: 1.6;
@@ -361,7 +366,7 @@ header ul a {
   background-color: var(--Bright-Blue);
   border: none;
   cursor: pointer;
-  border-radius: 5px ;
+  border-radius: 5px;
 }
 .early .container form input[type="submit"]:hover {
   background-color: #6b9bff;
@@ -402,9 +407,7 @@ footer {
   padding: 100px 0 50px;
   background-color: var(--Very-Dark-Blue);
 }
-.footer .container img{
 
-}
 .footer .container ol {
   list-style: none;
 }
@@ -419,6 +422,9 @@ footer {
   display: block;
   color: var(--Light-Gray);
   padding: 15px;
+}
+.footer .container ul {
+  padding-right: 100px;
 }
 .footer .container ul i {
   padding: 8px;
@@ -438,7 +444,7 @@ footer {
 
 @media (max-width: 768px) {
   .footer {
-    height:120vh;
+    height: 110vh;
   }
   .footer .container {
     justify-content: flex-start;
@@ -448,7 +454,7 @@ footer {
     padding-bottom: 30px;
     padding-left: 10px;
   }
-  .footer .container ol{
+  .footer .container ol {
     padding-bottom: 30px;
     padding-left: 10px;
     text-align: start;
@@ -456,13 +462,13 @@ footer {
   .footer .container ol li.inf {
     padding-bottom: 5px;
   }
-  .footer .container ol li.inf img{
+  .footer .container ol li.inf img {
     padding: 0;
     padding-left: 10px;
   }
   .footer .container ul {
     margin: auto;
+    padding: 0;
   }
-
 }
 /* end footer */
