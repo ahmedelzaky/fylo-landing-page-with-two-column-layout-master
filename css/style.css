@@ -284,6 +284,9 @@ header ul a {
 }
 
 @media (max-width: 768px) {
+  .landing-2 .container img{
+    padding: 0;
+  }
   .landing-2 .container .text .big-box {
     width: 100%;
   }
