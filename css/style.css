@@ -395,6 +395,7 @@ header ul a {
     width: 80%;
   }
   .early .container form {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
