@@ -386,7 +386,7 @@ header ul a {
 .early .container form input[type="submit"]:focus {
   outline: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .early .container form input[type="email"] {
     width: 80%;
     margin-top: 25px;
